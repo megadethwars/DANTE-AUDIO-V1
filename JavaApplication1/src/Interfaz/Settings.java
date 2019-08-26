@@ -1343,8 +1343,12 @@ public class Settings extends javax.swing.JPanel {
         Alias.add(id29.getText());
         Alias.add(id30.getText());
         
-
+        for(int i=0;i<32;i++){
+            puertos.add("10001");
+        }
+        
         Conf.SetLista(puertos);
+        
         Conf.SetAlias(Alias);
 
         //lista de images (directorios)
